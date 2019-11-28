@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "TripMonkey",
+    "version": "0.2.0",
+    "description": "TripMonkey",
+    "content_scripts": [{
+        "css": [???styles-files???],
+        "js": [???content-script-files???],
+        "matches": ["https://*/*"]
+    }]
+}
